@@ -1,0 +1,48 @@
+{
+  "name": "@hamletink/component",
+  "version": "1.0.0-beta.1",
+  "description": "Common React components",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "./task/clean.sh",
+    "build": "NODE_ENV=production ./task/build.sh",
+    "dev": "NODE_ENV=development ./task/start.sh",
+    "test": "NODE_ENV=test ./task/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhamlet/hamletink-component.git"
+  },
+  "author": "Jerry Hamlet <jerry@hamletink.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhamlet/hamletink-component/issues"
+  },
+  "homepage": "https://github.com/jhamlet/hamletink-component#readme",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.1",
+    "ramda": "^0.25.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-eslint": "8.2.3",
+    "babel-plugin-object-rest-spread": "0.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-register": "6.26.0",
+    "eslint": "4.19.1",
+    "eslint-plugin-babel": "5.1.0",
+    "eslint-plugin-react": "7.8.2",
+    "expect.js": "0.3.1",
+    "mocha": "5.2.0"
+  }
+}
